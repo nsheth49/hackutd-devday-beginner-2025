@@ -6,7 +6,7 @@ function Courses() {
   return (
     <div className="py-12 bg-gray-100">
       {data.courses.map((course, idx) => (
-        <div keys={idx} className="mb-6">
+        <div key={idx} className="mb-6">
           <CourseCard 
             courseCode={`${course.course_tag} ${course.course_number}`} 
             title={course.course_name} 
