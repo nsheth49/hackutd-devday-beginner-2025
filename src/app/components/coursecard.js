@@ -11,8 +11,8 @@ const data = [
 
 const CourseCard = (props) => {
   return (
-    <div class="container grid grid-col-1 grid-rows-1 gap-4 rounded-lg mx-auto py-8 border-2 border-solid border-gray-300 bg-white shadow-lg p-6 md:grid-cols-3 md:grid-rows-1">
-      <div class="col-span-2">
+    <div className="container grid grid-col-1 grid-rows-1 gap-4 rounded-lg mx-auto py-8 border-2 border-solid border-gray-300 bg-white shadow-lg p-6 md:grid-cols-3 md:grid-rows-1">
+      <div className="col-span-2">
         <h1 className="font-bold text-blue-800 text-2xl">{props.courseCode}</h1>
         <h3 className="font-bold text-black">{props.title}</h3>
         <h4 className="text-gray-500">{props.description}</h4>
